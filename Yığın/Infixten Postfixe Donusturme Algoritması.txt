@@ -1,0 +1,14 @@
+Adým 1-Sýradaki karakteri oku Adým 2 ye geç.
+Adým 2-
+a-Eðer karakter aç parantez ise yýðýna ekle. 
+b-Eðer operator ise ve yýðýn boþ ise karakteri 
+yýðýna at eðer yýðýn boþ deðil ise ve yýðýndaki karakter aç parantez ise; karakteri yýðýna ekle, eðer
+yýðýndaki karakter aç parantez deðil operand ise ve eðer yýðýndaki operandýn onceliði karakterden 
+yüksek ise ; yýðýndaki operatorun onceligi dusuk olana kadar postfix gösterime ekle yýðýndan çýkar, karakteri yýðýna ekle. 
+Yýðýndaki operandýn onceligi karakterden kucuk ise karakteri yýgýna ekle.
+c-Eðer kapa parantez ise ; stack'te ac parantez gorene kadar stack'i boþaltýp postfix gosterime ekle,
+ac parantezi de stackten at.
+d-Eðer operand ise; postfix gosterime ekle . Adým 3 e geç.
+Adým 3-Karakter dizisi sonunda deðilsen Adým 1 e dön, karakter sonunda
+isen yýðýný kontrol et bos ise bitir bos degilse stack boþ olana kadar stackteki
+karakterleri postfix gosterime ekle.
